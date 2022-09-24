@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -24,4 +30,51 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* Solução Devdy */
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 16px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+ul, li{
+  display: flex;
+  gap: 16px ;
+  
+}
+a {
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.buttons{
+  display: flex;
+  gap: 5px  ;
+  border-radius: 5px;
+  
+}
+button{
+  padding:8px 16px;
 }
