@@ -1,18 +1,18 @@
-# A common 'modal' style
-This one is another very common pattern on the web. The solution to this one is _simple_... but it might not be immediately obvious to you. You'll need to edit the HTML a bit to get everything where it needs to be.
+# Um estilo 'modal' comum
+Este é outro padrão muito comum na web. A solução para este é _simples_... mas pode não ser imediatamente óbvia para você. Você precisará editar o HTML um pouco para colocar tudo onde precisa estar.
 
-### A hint
-Depending on how you approach this one, you might need to revisit the `flex-shrink` property to keep a flex item from getting smashed.
+### Uma dica
+Dependendo de como você aborda este, pode ser necessário revisitar a propriedade `flex-shrink` para evitar que um item flexível seja esmagado.
 
-## Desired outcome
+## Resultado desejado
 
-![desired outcome](./desired-outcome.png)
+![resultado desejado](./desired-outcome.png)
 
-### Self Check
+### Autoverificação
 
-- The blue icon is aligned to the left.
-- There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
-- There is padding around the edge of the modal.
-- The header, text, and buttons are aligned with each other.
-- The header is bold and a slightly larger text-size than the text.
-- The close button is vertically aligned with the header, and aligned in the top-right of the card.
+- O ícone azul está alinhado à esquerda.
+- Há espaço igual em ambos os lados do ícone (os espaços entre o ícone e a borda do cartão e o ícone e o texto são os mesmos).
+- Há preenchimento ao redor da borda do modal.
+- O cabeçalho, o texto e os botões são alinhados entre si.
+- O cabeçalho está em negrito e um tamanho de texto ligeiramente maior que o texto.
+- O botão Fechar está alinhado verticalmente com o cabeçalho e alinhado no canto superior direito do cartão.
