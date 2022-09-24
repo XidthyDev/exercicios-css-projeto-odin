@@ -1,33 +1,33 @@
-# The Holy Grail of Layout
+# O Santo Graal do Layout
 
-In this last flexbox exercise you're going to recreate an incredibly common website layout. It is so common that it is often called the [Holy Grail](https://www.google.com/search?q=holy+grail+layout&tbm=isch&sclient=img) layout... and with flexbox it is actually pretty easy to pull off.
+Neste último exercício de flexbox, você recriará um layout de site incrivelmente comum. É tão comum que muitas vezes é chamado de layout [Santo Graal](https://www.google.com/search?q=holy+grail+layout&tbm=isch&sclient=img) ... e com flexbox é realmente bonito fácil de tirar.
 
-As with the previous exercise, we've left a little more for you to do.
+Assim como no exercício anterior, deixamos um pouco mais para você fazer.
 
-### Hints
-- You will need to change the flex-direction to push the footer down.
-- You will need to add some divs as containers to get things to line up correctly.
-- `flex-wrap` will help get the cards aligned correctly.
--  Make sure you define how much space the cards should take up, in order for `flex-wrap` to work as intended.
+### Dicas
+- Você precisará alterar a direção flexível para empurrar o rodapé para baixo.
+- Você precisará adicionar alguns divs como contêineres para que as coisas se alinhem corretamente.
+- `flex-wrap` ajudará a alinhar os cartões corretamente.
+- Certifique-se de definir quanto espaço os cartões devem ocupar, para que o `flex-wrap` funcione como pretendido.
 
-## Desired outcome
+## Resultado desejado
 
-![desired outcome](./desired-outcome.png)
+![resultado desejado](./desired-outcome.png)
 
-The number of cards lined up in that section will change based on the width of your screen, so don't stress about getting _exactly_ a 2x3 or 3x2 grid.
+O número de cartões alinhados nessa seção mudará com base na largura da tela, portanto, não se preocupe em obter _exatamente_ uma grade 2x3 ou 3x2.
 
-On a smaller screen it will look like this:
+Em uma tela menor, ficará assim:
 
 ![smaller](./desired-outcome-smaller.png)
 
-### Self Check
-- The header text is size 32px and weight 900.
-- The header text is vertically centered and 16px from the edge of the screen.
-- The footer is pushed to the bottom of the screen (the footer may go _below_ the bottom of the screen if the content of the 'cards' section overflows and/or if your screen is shorter).
-- The footer text is centered horizontally and vertically.
-- The sidebar and cards take up all available space above the footer.
-- The sidebar is 300px wide (and it doesn't shrink).
-- The sidebar links are size 24px, are white, and do not have the underline text decoration.
-- The sidebar has 16px padding.
-- There is 32px padding around the 'cards' section.
-- The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+### Autoverificação
+- O texto do cabeçalho tem tamanho 32px e peso 900.
+- O texto do cabeçalho é centralizado verticalmente e 16px da borda da tela.
+- O rodapé é empurrado para a parte inferior da tela (o rodapé pode ir _abaixo_ da parte inferior da tela se o conteúdo da seção 'cartões' transbordar e/ou se sua tela for mais curta).
+- O texto do rodapé é centralizado horizontal e verticalmente.
+- A barra lateral e os cartões ocupam todo o espaço disponível acima do rodapé.
+- A barra lateral tem 300px de largura (e não encolhe).
+- Os links da barra lateral são de tamanho 24px, são brancos e não possuem decoração de texto sublinhado.
+- A barra lateral tem preenchimento de 16px.
+- Há preenchimento de 32px ao redor da seção de 'cartões'.
+- Os cartões são organizados horizontalmente, mas quebram em várias linhas quando ficam sem espaço na página.
